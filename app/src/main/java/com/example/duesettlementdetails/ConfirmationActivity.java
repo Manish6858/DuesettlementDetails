@@ -41,4 +41,12 @@ public class ConfirmationActivity extends AppCompatActivity {
         textViewStatus.setText(jsonDetails.getString("state"));
         textViewAmount.setText(paymentAmount+" USD");
     }
+    
+     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
+    
+    
+    
 }
